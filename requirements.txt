@@ -4,4 +4,4 @@ numpy
 streamlit
 tempfile
 os
-ffmpeg
+ffmpeg._run
