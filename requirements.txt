@@ -1,0 +1,7 @@
+cv2
+mediapipe
+numpy
+streamlit
+tempfile
+os
+ffmpeg._run as ffmpeg
