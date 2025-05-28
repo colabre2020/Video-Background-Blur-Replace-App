@@ -1,2 +1,6 @@
 # Video-Background-Blur-Replace-App
-Video Background Blur/ Color Replace App
+The project uses OpenCV and Mediapipe libraries to process input videos by either blurring the background or replacing it with a solid color. The objective of the project is to provide users with the ability to enhance their video content by removing or modifying the background.
+
+The implementation of the project involves defining two functions: process_video and main. The process_video function takes an input video file path, a background processing option (either 'blur' or 'color'), and an optional color for the color replacement option. The function reads the input video using OpenCV, applies the selected background processing option using Mediapipe, and saves the processed frames in a temporary video file while preserving the original audio from the input video.
+
+The main function is responsible for displaying the Streamlit interface, which allows users to upload their own videos and choose between the two background processing options using a dropdown menu. When the user clicks the "Process Video" button, the process_video function is called, and the processed video is displayed in the Streamlit interface, along with a download link for the processed video file.
